@@ -1,15 +1,15 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navigation from './componets/Navigation';
-import AboutMe from './componets/AboutMe';
-import Projects from './componets/Projects';
-import Contact from './componets/Contact';
-import Footer from './componets/Footer';
-import Resume from './componets/Resume'; 
+import { Routes, Route } from 'react-router-dom';
+import Navigation from './components/Navigation';
+import AboutMe from './components/AboutMe';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Resume from './components/Resume';
 
 function App() {
   return (
-    <Router>
+    <>
       <Navigation />
       <Routes>
         <Route path="/" element={<AboutMe />} />
@@ -19,7 +19,7 @@ function App() {
         <Route path="/resume" element={<Resume />} />
       </Routes>
       <Footer />
-    </Router>
+    </>
   );
 }
 
