@@ -12,12 +12,14 @@ h1 {
 }
 
 .img-fluid.rounded-circle {
-  width: 921px;
-  height: 870px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
+  object-position: center top; /* Adjust as needed */
   border: 4px solid #007bff;
-  center top: 16px;
+  margin-bottom: 16px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transform: rotate(-2deg); 
 }
 
 .col-md-6 p {
