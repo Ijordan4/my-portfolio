@@ -12,9 +12,11 @@ h1 {
 }
 
 .img-fluid.rounded-circle {
-  max-width: 220px;
+  width: 921px;
+  height: 870px;
+  object-fit: cover;
   border: 4px solid #007bff;
-  margin-bottom: 16px;
+  center top: 16px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
