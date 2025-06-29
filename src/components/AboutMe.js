@@ -16,8 +16,8 @@ function AboutMe() {
           <p>
             Hi, I’m Isaiah — a passionate QA game tester with real-world experience
             playtesting pre-release titles for studios like EA, Ubisoft, and Activision. Over
-            the last few years, I’ve provided detailed gameplay feedback for games like UFC 5,
-            F1 24, NHL 23/24, Call of Duty betas, and MLB The Show (22–24).
+            the last few years, I’ve provided detailed gameplay feedback for games like UFC,
+            F1, NHL, Call of Duty, and MLB The Show.
             <br />
             <br />
             I’m deeply familiar with testing for bugs, balancing issues, UI feedback, and player
